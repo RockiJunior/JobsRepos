@@ -1,0 +1,38 @@
+{
+    "branch_office": "number",
+    "operation_type": "number",
+    "property_type": "number",
+    "location": {
+        "street": "string",
+        "number": "number",
+        "floor": "string",
+        "apartment": "string"
+    },
+    "characteristics": {
+        "ambience": "number",
+        "bedrooms": "number",
+        "bathrooms": "number",
+        "toilettes": "number",
+        "laundry": "number",
+        "garages": "number",
+        "floors": "number",
+        "covered": "boolean",
+        "porche": "boolean",
+        "lift": "boolean",
+        "openGarage": "boolean",
+        "underground": "boolean",
+        "building": "boolean"
+    },
+    "surface": {
+        "totalSurface": "number",
+        "coveredSurface": "number"
+    },
+    "antiquity": "number",
+    "price": {
+        "currency": "number",
+        "total": "number",
+        "totalExpenses": "number"
+    },
+    "images": "array",
+    "video": "string"
+}
