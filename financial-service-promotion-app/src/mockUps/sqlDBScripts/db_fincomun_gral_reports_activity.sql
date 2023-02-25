@@ -1,0 +1,68 @@
+-- MySQL dump 10.13  Distrib 8.0.30, for Linux (x86_64)
+--
+-- Host: fincomun-development.c8sfqdd7grks.us-east-1.rds.amazonaws.com    Database: db_fincomun
+-- ------------------------------------------------------
+-- Server version	8.0.28
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+SET @MYSQLDUMP_TEMP_LOG_BIN = @@SESSION.SQL_LOG_BIN;
+SET @@SESSION.SQL_LOG_BIN= 0;
+
+--
+-- GTID state at the beginning of the backup 
+--
+
+SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '';
+
+--
+-- Table structure for table `gral_reports_activity`
+--
+
+DROP TABLE IF EXISTS `gral_reports_activity`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `gral_reports_activity` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `week` int NOT NULL,
+  `quantityOfDisbursements` int NOT NULL,
+  `quantityOfQueries` int NOT NULL,
+  `quantityOfBuyback` int NOT NULL,
+  `averageOfDisbursements` float NOT NULL,
+  `averageOfQueries` float NOT NULL,
+  `averageOfBuyback` float NOT NULL,
+  `createdAt` timestamp NOT NULL,
+  `updatedAt` timestamp NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gral_reports_activity`
+--
+
+LOCK TABLES `gral_reports_activity` WRITE;
+/*!40000 ALTER TABLE `gral_reports_activity` DISABLE KEYS */;
+INSERT INTO `gral_reports_activity` VALUES (1,18,0,0,0,0,0,0,'2022-05-10 22:00:00','2022-05-10 22:00:00'),(2,19,0,0,0,0,0,0,'2022-05-17 22:00:00','2022-05-17 22:00:00'),(3,20,0,0,0,0,0,0,'2022-05-24 22:00:00','2022-05-24 22:00:00'),(4,21,0,0,0,0,0,0,'2022-05-31 22:00:00','2022-05-31 22:00:00'),(5,22,5,5,5,0,0,0,'2022-06-28 22:00:00','2022-06-28 22:00:00'),(6,23,5,5,5,0,0,0,'2022-06-07 22:00:00','2022-06-07 22:00:00'),(7,24,5,5,5,0,0,0,'2022-06-14 22:00:00','2022-06-14 22:00:00'),(8,25,5,5,5,0,0,0,'2022-06-21 22:00:00','2022-06-21 22:00:00'),(9,26,5,5,5,0,0,0,'2022-06-28 22:00:00','2022-06-28 22:00:00'),(10,27,5,5,5,0,0,0,'2022-07-07 22:03:02','2022-07-07 22:03:02'),(11,27,5,5,5,0,0,0,'2022-07-08 01:00:02','2022-07-08 01:00:02'),(12,27,5,5,5,0,0,0,'2022-07-09 01:00:02','2022-07-09 01:00:02'),(13,27,5,5,5,0,0,0,'2022-07-10 01:00:02','2022-07-10 01:00:02'),(14,28,5,5,5,0,0,0,'2022-07-11 01:00:02','2022-07-11 01:00:02'),(15,28,5,5,5,0,0,0,'2022-07-12 01:00:03','2022-07-12 01:00:03'),(16,28,5,5,5,0,0,0,'2022-07-13 01:00:02','2022-07-13 01:00:02'),(17,29,0,0,0,0,0,0,'2022-07-20 17:33:01','2022-07-20 17:33:01'),(18,30,11,11,11,5.5,5.5,5.5,'2022-07-26 01:00:02','2022-07-26 01:00:02'),(21,31,4,5,3,1.5,2,1,'2022-08-05 00:03:39','2022-08-05 00:03:39'),(22,32,4,5,3,1,1.5,0.5,'2022-08-09 01:00:02','2022-08-09 01:00:02'),(23,33,2,18,1,1,9,0.5,'2022-08-16 01:00:02','2022-08-16 01:00:02'),(24,34,8,52,2,0,0,0,'2022-08-23 17:13:55','2022-08-23 17:13:55'),(25,35,8,52,2,0,0,0,'2022-08-30 17:14:14','2022-08-30 17:14:14'),(26,36,8,52,2,0,0,0,'2022-09-06 01:00:02','2022-09-06 01:00:02'),(27,37,5,51,3,1,9.5,0.5,'2022-09-13 01:00:02','2022-09-13 01:00:02');
+/*!40000 ALTER TABLE `gral_reports_activity` ENABLE KEYS */;
+UNLOCK TABLES;
+SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-10-10 11:07:54

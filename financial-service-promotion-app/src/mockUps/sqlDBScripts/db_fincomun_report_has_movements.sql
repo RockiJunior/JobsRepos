@@ -1,0 +1,66 @@
+-- MySQL dump 10.13  Distrib 8.0.30, for Linux (x86_64)
+--
+-- Host: fincomun-development.c8sfqdd7grks.us-east-1.rds.amazonaws.com    Database: db_fincomun
+-- ------------------------------------------------------
+-- Server version	8.0.28
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+SET @MYSQLDUMP_TEMP_LOG_BIN = @@SESSION.SQL_LOG_BIN;
+SET @@SESSION.SQL_LOG_BIN= 0;
+
+--
+-- GTID state at the beginning of the backup 
+--
+
+SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '';
+
+--
+-- Table structure for table `report_has_movements`
+--
+
+DROP TABLE IF EXISTS `report_has_movements`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `report_has_movements` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `status` varchar(255) NOT NULL,
+  `reportId` int DEFAULT NULL,
+  `movementId` int DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `REL_fc385d72ed8dd7ce02d4687fde` (`movementId`),
+  KEY `FK_620fdcd24ad794936fb3b49602e` (`reportId`),
+  CONSTRAINT `FK_620fdcd24ad794936fb3b49602e` FOREIGN KEY (`reportId`) REFERENCES `reports` (`id`),
+  CONSTRAINT `FK_fc385d72ed8dd7ce02d4687fde1` FOREIGN KEY (`movementId`) REFERENCES `movements` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `report_has_movements`
+--
+
+LOCK TABLES `report_has_movements` WRITE;
+/*!40000 ALTER TABLE `report_has_movements` DISABLE KEYS */;
+INSERT INTO `report_has_movements` VALUES (26,'APPLIED',328,460),(27,'APPLIED',328,461),(28,'APPLIED',328,462),(29,'APPLIED',329,463),(34,'APPLIED',333,456),(35,'APPLIED',334,459),(36,'APPLIED',335,457),(37,'APPLIED',336,458),(38,'APPLIED',337,484),(39,'APPLIED',337,486),(40,'APPLIED',338,487),(41,'APPLIED',339,485),(46,'APPLIED',343,480),(47,'APPLIED',344,483),(48,'APPLIED',345,481),(49,'APPLIED',346,482),(50,'APPLIED',347,496),(51,'APPLIED',347,498),(52,'APPLIED',348,499),(53,'APPLIED',349,497),(58,'APPLIED',353,492),(59,'APPLIED',354,495),(60,'APPLIED',355,493),(61,'APPLIED',356,494);
+/*!40000 ALTER TABLE `report_has_movements` ENABLE KEYS */;
+UNLOCK TABLES;
+SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-10-10 11:06:23
