@@ -1,0 +1,66 @@
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8","method":"GET","timeStamp":"2023-02-01T14:23:09.834Z","message":"No se encontró la propiedad especificada"}
+		BadRequestException: No se encontró la propiedad especificada
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:37:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/collab-users
+		{"statusCode":404,"path":"/users/collab-users","method":"POST","timeStamp":"2023-02-01T18:17:03.122Z","message":"Cannot POST /users/collab-users"}
+		NotFoundException: Cannot POST /users/collab-users
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/collab-users
+		{"statusCode":404,"path":"/users/collab-users","method":"POST","timeStamp":"2023-02-01T18:18:18.304Z","message":"Cannot POST /users/collab-users"}
+		NotFoundException: Cannot POST /users/collab-users
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/collab-users
+		{"statusCode":404,"path":"/users/collab-users","method":"POST","timeStamp":"2023-02-01T18:18:33.744Z","message":"Cannot POST /users/collab-users"}
+		NotFoundException: Cannot POST /users/collab-users
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-01T18:28:55.863Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-01T18:29:07.143Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-01T18:29:28.433Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-01T18:29:33.742Z"}
+		undefined

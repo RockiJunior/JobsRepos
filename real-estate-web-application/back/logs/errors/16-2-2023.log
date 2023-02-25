@@ -1,0 +1,14 @@
+
+ Response Code: 404 - Method: GET - URL: /favicon.ico
+		{"statusCode":404,"path":"/favicon.ico","method":"GET","timeStamp":"2023-02-16T13:41:59.435Z","message":"Cannot GET /favicon.ico"}
+		NotFoundException: Cannot GET /favicon.ico
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

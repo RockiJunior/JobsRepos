@@ -1,0 +1,99 @@
+
+ Response Code: 403 - Method: GET - URL: /users/collab-users
+		{"statusCode":403,"error":"Forbidden","path":"/users/collab-users","method":"GET","timeStamp":"2023-01-23T14:49:37.696Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: GET - URL: /users/get-by-status?status=active
+		{"statusCode":403,"error":"Forbidden","path":"/users/get-by-status?status=active","method":"GET","timeStamp":"2023-01-23T15:08:34.617Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: GET - URL: /users/get-by-status?status=active
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/get-by-status?status=active","method":"GET","timeStamp":"2023-01-23T15:08:59.271Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 400 - Method: GET - URL: /users/get-by-status?status=deleted
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/get-by-status?status=deleted","method":"GET","timeStamp":"2023-01-23T15:09:53.804Z","message":"No es posible consultar el status solicitado"}
+				BadRequestException: No es posible consultar el status solicitado
+    at UsersService.getUsersByStatus (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:115:10)
+    at UsersController.getUsersByStatus (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.controller.ts:248:28)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: GET - URL: /users/get-by-status?status=active
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/get-by-status?status=active","method":"GET","timeStamp":"2023-01-23T15:10:08.208Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-01-23T17:04:01.980Z"}
+		undefined
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-01-23T17:57:26.725Z"}
+		undefined
+
+ Response Code: 404 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 5a3f0a24-85db-4fe6-94dc-3af5c138c2c6
+,
+				{"statusCode":404,"error":"Not Found","path":"/users/create-user","method":"POST","timeStamp":"2023-01-23T18:24:53.289Z","message":"Cannot POST /users/create-user"}
+				NotFoundException: Cannot POST /users/create-user
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 5a3f0a24-85db-4fe6-94dc-3af5c138c2c6
+,
+				{"statusCode":404,"error":"Not Found","path":"/users/create-user","method":"POST","timeStamp":"2023-01-23T18:24:54.864Z","message":"Cannot POST /users/create-user"}
+				NotFoundException: Cannot POST /users/create-user
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: GET - URL: /users/get-by-status?status=active
+				Body: undefined,
+				UserId: 5a3f0a24-85db-4fe6-94dc-3af5c138c2c6
+,
+				{"statusCode":500,"path":"/users/get-by-status?status=active","method":"GET","timeStamp":"2023-01-23T18:27:52.044Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 400 - Method: PATCH - URL: /clients/update-password/8966d1b1-a690-4456-96e0-973a9e39cecb
+		{"statusCode":400,"error":"Bad Request","path":"/clients/update-password/8966d1b1-a690-4456-96e0-973a9e39cecb","method":"PATCH","timeStamp":"2023-01-24T00:16:35.824Z","message":"La contraseña actual es la misma que la ingresada. Coloque una nueva contraseña e intente nuevamente"}
+		BadRequestException: La contraseña actual es la misma que la ingresada. Coloque una nueva contraseña e intente nuevamente
+    at ClientsService.updatePassword (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/clients/clients.service.ts:158:10)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

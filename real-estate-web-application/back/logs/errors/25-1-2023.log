@@ -1,0 +1,78 @@
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8","method":"GET","timeStamp":"2023-01-25T19:12:40.126Z","message":"propertyId must be a string"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8","method":"GET","timeStamp":"2023-01-25T19:13:02.603Z","message":"Please provide a property Id request parameter"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8","method":"GET","timeStamp":"2023-01-25T19:13:24.693Z","message":"Please provide a property Id request parameter"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: GET - URL: /properties/63bc803f3488294dd44375c8
+		{"statusCode":404,"path":"/properties/63bc803f3488294dd44375c8","method":"GET","timeStamp":"2023-01-25T19:13:50.301Z","message":"No se encontró la propiedad especificada"}
+		NotFoundException: No se encontró la propiedad especificada
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:35:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8asda
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8asda","method":"GET","timeStamp":"2023-01-25T19:22:04.201Z","message":"Cast to ObjectId failed for value \"63bc803f3488294dd44375c8asda\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "63bc803f3488294dd44375c8asda" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:37:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8asda
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8asda","method":"GET","timeStamp":"2023-01-25T19:22:09.298Z","message":"Cast to ObjectId failed for value \"63bc803f3488294dd44375c8asda\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "63bc803f3488294dd44375c8asda" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:37:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/63bc803f3488294dd44375c8asda
+		{"statusCode":400,"path":"/properties/63bc803f3488294dd44375c8asda","method":"GET","timeStamp":"2023-01-25T19:22:10.163Z","message":"Cast to ObjectId failed for value \"63bc803f3488294dd44375c8asda\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "63bc803f3488294dd44375c8asda" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:37:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-25T19:40:26.262Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:730:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

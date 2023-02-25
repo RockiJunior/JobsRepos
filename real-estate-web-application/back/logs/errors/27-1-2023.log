@@ -1,0 +1,617 @@
+
+ Response Code: 403 - Method: PATCH - URL: /properties/upload-multimedia/63bc803f3488294dd44375c8
+		{"statusCode":403,"path":"/properties/upload-multimedia/63bc803f3488294dd44375c8","method":"PATCH","timeStamp":"2023-01-27T12:48:07.570Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /properties/upload-multimedia/63bc803f3488294dd44375c8
+		{"statusCode":403,"path":"/properties/upload-multimedia/63bc803f3488294dd44375c8","method":"PATCH","timeStamp":"2023-01-27T13:02:57.564Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:04:51.343Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:05:03.668Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:05:08.275Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:05:19.378Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:07:18.602Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:07:31.999Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:07:35.981Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-27T13:07:39.967Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:843:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b","method":"PATCH","timeStamp":"2023-01-27T13:34:09.144Z","message":"No tiene permisos suficientes"}
+				NotImplementedException: No tiene permisos suficientes
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:672:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:34:24.070Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:37:20.245Z","message":"No se puede actualizar un usuario que ya ha sido eliminado"}
+				NotImplementedException: No se puede actualizar un usuario que ya ha sido eliminado
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:554:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:37:54.694Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:569:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:44:51.857Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:44:54.324Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:45:41.017Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:45:46.198Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:45:47.441Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:45:54.730Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:45:55.697Z","message":"Cannot read properties of null (reading 'typeOfUser')"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:47:37.029Z","message":"Cannot read properties of null (reading 'status')"}
+				undefined
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:51:47.580Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:562:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:51:53.604Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:562:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_80@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":500,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:53:01.941Z","message":"Cannot read properties of null (reading 'email')"}
+				undefined
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:54:15.561Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:54:52.209Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:54:53.420Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:10.414Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:45.778Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:50.875Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:51.649Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:56.422Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:56:57.148Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:598:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_80hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:12.996Z","message":"email must be an email"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_80@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:21.197Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:43.870Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:56.665Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:57.533Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:57:58.094Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:597:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:58:51.072Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:58:58.152Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:563:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:59:41.909Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:59:57.607Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T13:59:59.544Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T14:00:00.261Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b
+				Body: gabrielvillarroel_80@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b","method":"PATCH","timeStamp":"2023-01-27T14:13:16.780Z","message":"No tiene permisos suficientes"}
+				NotImplementedException: No tiene permisos suficientes
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:670:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b
+				Body: gabrielvillarroel_80@hotmail.com,
+				UserId: e9f5c405-4c79-4430-9642-84af14c0135a
+,
+				{"statusCode":501,"path":"/users/edit-profile/6e90d6cf-1ffc-44b9-b231-5fb24bea674b","method":"PATCH","timeStamp":"2023-01-27T14:14:45.486Z","message":"No tiene permisos suficientes"}
+				NotImplementedException: No tiene permisos suficientes
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:670:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63bc803f3488294dd44375c8
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63bc803f3488294dd44375c8","method":"PATCH","timeStamp":"2023-01-27T14:40:36.980Z","message":"Url inválida"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63bc803f3488294dd44375c8
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63bc803f3488294dd44375c8","method":"PATCH","timeStamp":"2023-01-27T14:41:04.198Z","message":"video360 must be an URL address"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_80@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:01:21.239Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:558:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_12@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:02:20.703Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:558:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:10:59.375Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:11:02.133Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:11:18.887Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:12:03.402Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:12:06.622Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:12:14.524Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:12:18.034Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:581:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:13:58.647Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:14:06.459Z","message":"El email ingresado ya existe"}
+				NotImplementedException: El email ingresado ya existe
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:564:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_90@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-27T15:16:49.537Z","message":"El mail ingresado es igual al actual"}
+				NotImplementedException: El mail ingresado es igual al actual
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

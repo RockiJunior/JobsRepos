@@ -1,0 +1,730 @@
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T19:45:00.119Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T19:48:36.951Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T19:48:43.679Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T19:48:44.445Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T19:48:45.103Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T19:48:48.084Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T19:48:54.316Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T19:48:57.773Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T19:51:07.024Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T19:51:17.397Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T19:52:31.023Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T19:53:23.506Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T19:58:46.466Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T19:59:15.330Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:00:05.814Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:00:33.591Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:00:47.090Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:02:50.517Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:03:20.542Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:05:04.846Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:05:07.063Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:07:29.730Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:09:18.431Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:09:33.110Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:09:36.787Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:09:43.187Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:09:52.487Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:10:55.161Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:11:05.741Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"errorCode":"Bad Request","path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:11:27.987Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:17:25.729Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:18:15.108Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:19:07.549Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:20:42.589Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:20:56.152Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:21:33.804Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:21:35.035Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:21:43.600Z","message":"Bad Request Exception"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:23:14.378Z","message":["Please enter a valid DNI"]}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:23:24.308Z","message":"Please enter a valid DNI"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:23:36.022Z","message":"Incorrect area number, must be from ARGENTINA"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T20:23:44.812Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:03.048Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:05.156Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:31.011Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:33.078Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:34.764Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-24T20:24:36.200Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:580:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/create-user","method":"POST","timeStamp":"2023-01-24T20:24:41.022Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:255:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:25:32.402Z","message":"Incorrect area number, must be from ARGENTINA"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:29:14.527Z","message":"Incorrect area number, must be from ARGENTINA"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:29:49.236Z","message":"Incorrect area number, must be from ARGENTINA"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-24T20:30:35.583Z","message":"Incorrect area number, must be from ARGENTINA"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

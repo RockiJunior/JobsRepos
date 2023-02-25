@@ -1,0 +1,1376 @@
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:15:15.360Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:15:30.487Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:15:31.327Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:19:15.386Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:00.312Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:13.653Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:24.831Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:28.072Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:33.828Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:37.072Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:41.447Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:22:57.755Z","message":"Invalid locale 'AR'"}
+				undefined
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:23:11.871Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:23:34.026Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:24:05.208Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:24:47.467Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:25:26.523Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:26:03.888Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:26:12.977Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":500,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:26:44.942Z","message":"Invalid locale '[object Object]'"}
+				undefined
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:27:09.203Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:29:12.930Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:29:40.661Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:29:59.143Z","message":"phoneNumber must be a phone number"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:30:42.261Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:30:58.536Z","message":"Código de área incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:05.160Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:10.183Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:14.613Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:25.948Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:34.424Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:39.708Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:44.697Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:47.605Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:50.346Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:34:52.883Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:38:53.107Z","message":"Numero de telefono incorrecto"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:39:37.286Z","message":"Número de telefono incorrecto, debe tener un largo de entre 10 y 13 caracteres"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:39:40.823Z","message":"Número de telefono incorrecto, debe tener un largo de entre 10 y 13 caracteres"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:39:47.709Z","message":"Número de telefono incorrecto, debe tener un largo de entre 10 y 13 caracteres"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:39:59.406Z","message":"Please enter a valid DNI"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T16:40:36.211Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:50:49.900Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:712:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:50:59.400Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:748:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: POST - URL: /users/login
+		{"statusCode":500,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:51:04.905Z","message":"Cannot read properties of null (reading 'password')"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:51:53.062Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:748:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:52:19.982Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:748:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:52:24.697Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:748:12)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: POST - URL: /users/login
+		{"statusCode":500,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:52:41.195Z","message":"Cannot read properties of null (reading 'password')"}
+		undefined
+
+ Response Code: 404 - Method: POST - URL: /users/login
+		{"statusCode":404,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:53:31.484Z","message":"El email ingresado no exíste"}
+		NotFoundException: El email ingresado no exíste
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:699:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/create-user","method":"POST","timeStamp":"2023-01-26T16:54:02.245Z","message":"Numero de telefono incorrecto: ingrese uno válido para Argentina."}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 1)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/create-user","method":"POST","timeStamp":"2023-01-26T16:59:06.324Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:256:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user
+				Body: gabrielvillarroel_12@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/users/create-user","method":"POST","timeStamp":"2023-01-26T16:59:15.672Z","message":"No se pudo crear el colaborador; el dni ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el dni ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:261:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /users/login
+		{"statusCode":400,"path":"/users/login","method":"POST","timeStamp":"2023-01-26T16:59:35.739Z","message":"El usuario aun no ha sido verificado. Verifíquelo e intente nuevamente"}
+		BadRequestException: El usuario aun no ha sido verificado. Verifíquelo e intente nuevamente
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:702:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-01-26T17:03:35.352Z"}
+		undefined
+
+ Response Code: 501 - Method: POST - URL: /roles/1
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/roles/1","method":"POST","timeStamp":"2023-01-26T17:03:59.034Z","message":"Ya existe un role con el mismo nombre."}
+				NotImplementedException: Ya existe un role con el mismo nombre.
+    at RolesService.create (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/roles/roles.service.ts:61:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/1
+		{"statusCode":501,"path":"/users/create-admin/1","method":"POST","timeStamp":"2023-01-26T17:05:50.810Z","message":"Error interno, no se ha podido crear el usuario administrador"}
+		NotImplementedException: Error interno, no se ha podido crear el usuario administrador
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:196:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/2
+		{"statusCode":501,"path":"/users/create-admin/2","method":"POST","timeStamp":"2023-01-26T17:06:54.471Z","message":"Error interno. No se ha creado el usuario administrador, verifique los datos ingresados"}
+		NotImplementedException: Error interno. No se ha creado el usuario administrador, verifique los datos ingresados
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:196:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/2
+		{"statusCode":501,"path":"/users/create-admin/2","method":"POST","timeStamp":"2023-01-26T17:07:27.958Z","message":"Error interno. No se ha creado el usuario administrador, verifique los datos ingresados"}
+		NotImplementedException: Error interno. No se ha creado el usuario administrador, verifique los datos ingresados
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:196:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/2
+		{"statusCode":501,"path":"/users/create-admin/2","method":"POST","timeStamp":"2023-01-26T17:08:17.858Z","message":"Error interno. No se ha creado el usuario administrador, verifique los datos ingresados"}
+		NotImplementedException: Error interno. No se ha creado el usuario administrador, verifique los datos ingresados
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:196:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/2
+		{"statusCode":501,"path":"/users/create-admin/2","method":"POST","timeStamp":"2023-01-26T17:08:31.708Z","message":"El email ingresado ya existe"}
+		NotImplementedException: El email ingresado ya existe
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:152:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T17:10:18.186Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T17:59:10.304Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:01:15.517Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:03:21.761Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:03:42.984Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:03:52.861Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:03:58.865Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:04:16.135Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:05:31.080Z","message":"Forbidden resource"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:06:08.921Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:06:43.445Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:06:47.567Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:06:51.239Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:07:01.640Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:09:11.826Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:09:49.280Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:10:15.208Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:10:23.852Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:10:55.489Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:11:44.130Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:11:59.991Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:12:33.498Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:13:27.197Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:13:43.254Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:14:17.243Z"}
+		undefined
+
+ Response Code: 403 - Method: PATCH - URL: /users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2
+		{"statusCode":403,"path":"/users/upload-admin-photo/86ff9f15-8c7c-4352-a4da-bfcba366cad2","method":"PATCH","timeStamp":"2023-01-26T18:14:36.309Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:15:08.635Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:15:54.835Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:16:14.978Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:16:32.269Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /?status=active
+		{"statusCode":401,"path":"/?status=active","method":"GET","timeStamp":"2023-01-26T18:17:20.342Z"}
+		undefined
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/2
+		{"statusCode":501,"path":"/users/create-admin/2","method":"POST","timeStamp":"2023-01-26T18:17:56.400Z","message":"El email ingresado ya existe"}
+		NotImplementedException: El email ingresado ya existe
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:152:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /roles/2
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":501,"path":"/roles/2","method":"POST","timeStamp":"2023-01-26T18:18:00.520Z","message":"Ya existe un role con el mismo nombre."}
+				NotImplementedException: Ya existe un role con el mismo nombre.
+    at RolesService.create (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/roles/roles.service.ts:61:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: GET - URL: /roles/1
+		{"statusCode":403,"path":"/roles/1","method":"GET","timeStamp":"2023-01-26T18:18:05.268Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:26:50.057Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:28:18.082Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:28:24.910Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:31:23.416Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:31:27.888Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:31:31.220Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:31:45.748Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:31:58.774Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:39:07.599Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:39:38.209Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:40:45.917Z","message":"Incorrect phone number, must be at between 10 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:49:59.431Z","message":"Incorrect phone number, must be at between 7 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:50:07.407Z","message":"Incorrect phone number, must be at between 7 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: undefined,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-data/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T18:54:04.774Z","message":"Incorrect phone number, must be at between 7 & 13 digits"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-01-26T19:02:47.040Z"}
+		undefined
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"path":"/users/verify-user","method":"POST","timeStamp":"2023-01-26T19:02:56.602Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:613:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-01-26T19:08:17.956Z"}
+		undefined
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:08:47.089Z","message":"La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:09:10.106Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:09:19.743Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:09:36.658Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:11:10.369Z","message":"La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:11:49.182Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:11:57.757Z","message":"La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:12:05.166Z","message":"La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña actual es la misma que la nueva. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:12:15.836Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:12:35.886Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:12:37.516Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:12:42.556Z","message":"La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente"}
+				BadRequestException: La contraseña actual es incorrecta. Corrija su contraseña e intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:606:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:17:16.711Z","message":"La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:17:22.663Z","message":"La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:17:26.572Z","message":"La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:17:31.467Z","message":"La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:17:53.645Z","message":"La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente"}
+				BadRequestException: La contraseña ingresada es la misma que la actual. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:20:19.294Z","message":"La nueva contraseña debe ser distinta a las anteriores. Corríjalo intente nuevamente"}
+				BadRequestException: La nueva contraseña debe ser distinta a las anteriores. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe
+				Body: gabrielvillarroel_11@hotmail.com,
+				UserId: 652b042e-7b9e-4bda-82da-3f812c227106
+,
+				{"statusCode":400,"path":"/users/edit-profile/0f7ccdad-ba7a-4e8d-b0a0-9e5b87ec24fe","method":"PATCH","timeStamp":"2023-01-26T19:20:35.976Z","message":"La nueva contraseña debe ser distinta a las anteriores. Corríjalo intente nuevamente"}
+				BadRequestException: La nueva contraseña debe ser distinta a las anteriores. Corríjalo intente nuevamente
+    at UsersService.updateProfile (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:576:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

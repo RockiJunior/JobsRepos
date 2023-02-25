@@ -1,0 +1,22 @@
+
+ Response Code: 500 - Method: POST - URL: /properties/find-properties?limit=10&offset=0
+		{"statusCode":500,"path":"/properties/find-properties?limit=10&offset=0","method":"POST","timeStamp":"2023-02-22T14:41:34.466Z","message":"Cannot destructure property 'type' of 'surface' as it is undefined."}
+		undefined
+
+ Response Code: 500 - Method: POST - URL: /properties/find-properties?limit=10&offset=0
+		{"statusCode":500,"path":"/properties/find-properties?limit=10&offset=0","method":"POST","timeStamp":"2023-02-22T14:42:06.146Z","message":"Cannot destructure property 'type' of 'surface' as it is undefined."}
+		undefined
+
+ Response Code: 400 - Method: POST - URL: /properties/find-properties?limit=10&offset=0
+		{"statusCode":400,"path":"/properties/find-properties?limit=10&offset=0","method":"POST","timeStamp":"2023-02-22T15:29:40.633Z","message":"Expected double-quoted property name in JSON at position 193"}
+		BadRequestException: Expected double-quoted property name in JSON at position 193
+    at RoutesResolver.mapExternalException (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:100:24)
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:86:24)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:21:23
+    at Layer.handle_error (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:326:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:326:13)

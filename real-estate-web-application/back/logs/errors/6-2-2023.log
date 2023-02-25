@@ -1,0 +1,50 @@
+
+ Response Code: 500 - Method: POST - URL: /users/login
+		{"statusCode":500,"path":"/users/login","method":"POST","timeStamp":"2023-02-06T13:26:12.093Z","message":"Cannot read properties of undefined (reading 'split')"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-02-06T13:27:14.787Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-02-06T13:27:44.446Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-02-06T13:27:57.987Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-02-06T13:28:12.824Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-02-06T13:28:25.191Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-06T14:14:14.662Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-06T14:14:40.360Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-06T14:14:57.510Z"}
+		undefined
+
+ Response Code: 404 - Method: GET - URL: /favicon.ico
+		{"statusCode":404,"path":"/favicon.ico","method":"GET","timeStamp":"2023-02-06T21:03:29.456Z","message":"Cannot GET /favicon.ico"}
+		NotFoundException: Cannot GET /favicon.ico
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

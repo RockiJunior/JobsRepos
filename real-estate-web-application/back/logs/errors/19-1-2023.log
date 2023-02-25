@@ -1,0 +1,262 @@
+
+ Response Code: 501 - Method: POST - URL: /users/create-user/$2b$10$RcfkttqSFNrozKrG20Jdu.0liR884ex5.7r5kXfyN8xEWN8Us3vmq
+				Body: gabrielvillarroel_12@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user/$2b$10$RcfkttqSFNrozKrG20Jdu.0liR884ex5.7r5kXfyN8xEWN8Us3vmq","method":"POST","timeStamp":"2023-01-19T22:33:49.905Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:244:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-01-19T22:34:13.886Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-01-19T22:35:47.125Z"}
+		undefined
+
+ Response Code: 401 - Method: GET - URL: /
+		{"statusCode":401,"path":"/","method":"GET","timeStamp":"2023-01-19T22:37:20.065Z"}
+		undefined
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-19T22:45:13.976Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:563:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-user/$2b$10$RcfkttqSFNrozKrG20Jdu.0liR884ex5.7r5kXfyN8xEWN8Us3vmq
+				Body: gabrielvillarroel_12@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-user/$2b$10$RcfkttqSFNrozKrG20Jdu.0liR884ex5.7r5kXfyN8xEWN8Us3vmq","method":"POST","timeStamp":"2023-01-19T22:45:18.529Z","message":"No se pudo crear el colaborador; el mail ingresado ya existe"}
+				NotImplementedException: No se pudo crear el colaborador; el mail ingresado ya existe
+    at UsersService.createCollabUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:244:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/6
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/6","method":"POST","timeStamp":"2023-01-19T22:46:50.143Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:47:37.729Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:48:35.320Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:49:44.580Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: undefined - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:50:52.503Z"}
+				undefined
+
+ Response Code: undefined - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:51:13.218Z"}
+				undefined
+
+ Response Code: undefined - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:51:36.807Z"}
+				undefined
+
+ Response Code: undefined - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:52:23.647Z"}
+				undefined
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:52:37.986Z"}
+				undefined
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:53:24.064Z"}
+				undefined
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:53:34.345Z"}
+				undefined
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:55:07.737Z"}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:56:43.785Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 400 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":400,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:57:09.847Z","message":"invalid input syntax for type integer: \"NaN\""}
+				BadRequestException: invalid input syntax for type integer: "NaN"
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:57:37.817Z","message":"invalid input syntax for type integer: \"NaN\""}
+				NotFoundException: invalid input syntax for type integer: "NaN"
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:59:18.375Z","message":"invalid input syntax for type integer: \"NaN\""}
+				NotFoundException: invalid input syntax for type integer: "NaN"
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T22:59:53.020Z","message":"invalid input syntax for type integer: \"NaN\""}
+				NotFoundException: invalid input syntax for type integer: "NaN"
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T23:00:27.620Z","message":"Not Found Exception"}
+				NotFoundException: Not Found Exception
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T23:01:40.284Z","message":"Not Found Exception"}
+				NotFoundException: Not Found Exception
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:190:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T23:01:56.470Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T23:02:56.361Z","message":"Error interno, no se ha podido crear el usuario"}
+				NotImplementedException: Error interno, no se ha podido crear el usuario
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:189:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 501 - Method: POST - URL: /users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424
+				Body: gabrielvillarroel_13@hotmail.com,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":501,"error":"Not Implemented","path":"/users/create-admin/7aafc56c-265a-45c8-b19d-997623bbb424","method":"POST","timeStamp":"2023-01-19T23:05:05.371Z","message":"Error interno, no se ha podido crear el usuario administrador"}
+				NotImplementedException: Error interno, no se ha podido crear el usuario administrador
+    at UsersService.createAdminUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:189:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/verify-user
+		{"statusCode":404,"error":"Not Found","path":"/users/verify-user","method":"POST","timeStamp":"2023-01-19T23:05:12.621Z","message":"Usuario ya verificado"}
+		NotFoundException: Usuario ya verificado
+    at UsersService.verifyUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:568:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /users/login
+		{"statusCode":400,"error":"Bad Request","path":"/users/login","method":"POST","timeStamp":"2023-01-19T23:12:53.622Z","message":"Bad Request Exception"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /users/login
+		{"statusCode":400,"error":"Bad Request","path":"/users/login","method":"POST","timeStamp":"2023-01-19T23:13:22.630Z","message":"Bad Request Exception"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:90:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:66:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

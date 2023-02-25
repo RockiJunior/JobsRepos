@@ -1,0 +1,43 @@
+
+ Response Code: 404 - Method: POST - URL: /roles/3
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":404,"error":"Not Found","path":"/roles/3","method":"POST","timeStamp":"2023-01-20T13:56:20.499Z","message":"No se pudo encontrar el administrador ingresado"}
+				NotFoundException: No se pudo encontrar el administrador ingresado
+    at RolesService.create (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/roles/roles.service.ts:49:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /users/edit-roles/bf98d8db-47d7-433a-a6ef-2f40adfdf981
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":400,"error":"Bad Request","path":"/users/edit-roles/bf98d8db-47d7-433a-a6ef-2f40adfdf981","method":"PATCH","timeStamp":"2023-01-20T16:19:14.596Z","message":"No se pudo encontrar el role solicitado"}
+				BadRequestException: No se pudo encontrar el role solicitado
+    at UsersService.updateRoles (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:385:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: DELETE - URL: /roles/4
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/roles/4","method":"DELETE","timeStamp":"2023-01-20T16:23:05.642Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 500 - Method: DELETE - URL: /roles/4
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/roles/4","method":"DELETE","timeStamp":"2023-01-20T16:23:50.359Z","message":"Internal Server Error"}
+				undefined
+
+ Response Code: 500 - Method: DELETE - URL: /roles/4
+				Body: undefined,
+				UserId: 7aafc56c-265a-45c8-b19d-997623bbb424
+,
+				{"statusCode":500,"path":"/roles/4","method":"DELETE","timeStamp":"2023-01-20T16:24:10.204Z","message":"Internal Server Error"}
+				undefined

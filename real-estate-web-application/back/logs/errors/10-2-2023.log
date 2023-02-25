@@ -1,0 +1,44 @@
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-02-10T16:08:00.384Z"}
+		undefined
+
+ Response Code: 404 - Method: POST - URL: /users/login
+		{"statusCode":404,"path":"/users/login","method":"POST","timeStamp":"2023-02-10T16:08:11.527Z","message":"El email ingresado no exíste"}
+		NotFoundException: El email ingresado no exíste
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:805:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-10T16:08:22.057Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:818:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-10T16:08:45.139Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:818:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-10T16:08:52.461Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:818:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-10T16:10:19.904Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:818:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-02-10T16:10:32.094Z"}
+		undefined

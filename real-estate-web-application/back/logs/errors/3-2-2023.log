@@ -1,0 +1,73 @@
+
+ Response Code: 404 - Method: POST - URL: /users/login
+		{"statusCode":404,"path":"/users/login","method":"POST","timeStamp":"2023-02-03T16:26:01.458Z","message":"El email ingresado no exíste"}
+		NotFoundException: El email ingresado no exíste
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:796:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: GET - URL: /users/refresh-token
+		{"statusCode":403,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:27:18.466Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 403 - Method: GET - URL: /users/refresh-token
+		{"statusCode":403,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:30:45.308Z","message":"Acceso denegado"}
+		ForbiddenException: Forbidden resource
+    at canActivateFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:136:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 500 - Method: GET - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:31:36.819Z","message":"invalid input syntax for type uuid: \"refresh-token\""}
+				undefined
+
+ Response Code: 500 - Method: GET - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:31:50.310Z","message":"invalid input syntax for type uuid: \"refresh-token\""}
+				undefined
+
+ Response Code: 500 - Method: GET - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:31:58.559Z","message":"invalid input syntax for type uuid: \"refresh-token\""}
+				undefined
+
+ Response Code: 500 - Method: GET - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:32:24.986Z","message":"invalid input syntax for type uuid: \"refresh-token\""}
+				undefined
+
+ Response Code: 500 - Method: GET - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"GET","timeStamp":"2023-02-03T16:32:36.159Z","message":"invalid input syntax for type uuid: \"refresh-token\""}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"POST","timeStamp":"2023-02-03T16:33:04.223Z","message":"req.headers.get is not a function"}
+				undefined
+
+ Response Code: 500 - Method: POST - URL: /users/refresh-token
+				Body: undefined,
+				UserId: 8357afa6-3881-42ce-b0e1-69935350dbf0
+,
+				{"statusCode":500,"path":"/users/refresh-token","method":"POST","timeStamp":"2023-02-03T16:33:10.249Z","message":"req.headers.get is not a function"}
+				undefined

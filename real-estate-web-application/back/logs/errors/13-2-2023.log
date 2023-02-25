@@ -1,0 +1,241 @@
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:28:33.854Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:815:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /users/login
+		{"statusCode":404,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:29:15.627Z","message":"El email ingresado no exíste"}
+		NotFoundException: El email ingresado no exíste
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:802:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:29:27.012Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:815:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:30:03.483Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:815:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:30:31.310Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:815:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: POST - URL: /users/login
+		{"statusCode":401,"path":"/users/login","method":"POST","timeStamp":"2023-02-13T13:32:01.609Z","message":"Contraseña incorrecta"}
+		UnauthorizedException: Contraseña incorrecta
+    at UsersService.loginUser (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/users/users.service.ts:819:11)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"GET","timeStamp":"2023-02-13T15:48:54.410Z","message":"Cast to ObjectId failed for value \"upload\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "upload" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:40:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"GET","timeStamp":"2023-02-13T15:49:34.656Z","message":"Cast to ObjectId failed for value \"upload\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "upload" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:40:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: GET - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"GET","timeStamp":"2023-02-13T15:50:17.362Z","message":"Cast to ObjectId failed for value \"upload\" (type string) at path \"_id\" for model \"Property\""}
+		BadRequestException: Cast to ObjectId failed for value "upload" (type string) at path "_id" for model "Property"
+    at PropertiesService.findOneClient (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:40:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"POST","timeStamp":"2023-02-13T15:50:48.342Z","message":"Invalid file type."}
+		BadRequestException: Invalid file type.
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:218:10
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PropertiesService.uploadImageToCloudinary (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:217:10)
+
+ Response Code: 404 - Method: POST - URL: /properties/upload
+		{"statusCode":404,"path":"/properties/upload","method":"POST","timeStamp":"2023-02-13T17:26:14.149Z","message":"Cannot POST /properties/upload"}
+		NotFoundException: Cannot POST /properties/upload
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: POST - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"POST","timeStamp":"2023-02-13T17:28:04.161Z","message":"Cannot read properties of undefined (reading 'buffer')"}
+		BadRequestException: Cannot read properties of undefined (reading 'buffer')
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:210:10
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PropertiesService.uploadImageToCloudinary (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:209:10)
+
+ Response Code: 400 - Method: POST - URL: /properties/upload
+		{"statusCode":400,"path":"/properties/upload","method":"POST","timeStamp":"2023-02-13T17:28:59.681Z","message":"No se pudo cargar la imagen, seleccione una e intente nuevamente"}
+		BadRequestException: No se pudo cargar la imagen, seleccione una e intente nuevamente
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:210:10
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PropertiesService.uploadImageToCloudinary (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/Properties/properties/properties.service.ts:209:10)
+
+ Response Code: 500 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":500,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:28:48.657Z","message":"Cannot destructure property 'file' of 'uploadCloudinaryDto' as it is undefined."}
+		undefined
+
+ Response Code: 500 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":500,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:29:16.349Z","message":"Cannot destructure property 'file' of 'uploadCloudinaryDto' as it is undefined."}
+		undefined
+
+ Response Code: 500 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":500,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:29:17.138Z","message":"Cannot destructure property 'file' of 'uploadCloudinaryDto' as it is undefined."}
+		undefined
+
+ Response Code: 500 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":500,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:29:51.025Z","message":"Cannot destructure property 'file' of 'uploadCloudinaryDto' as it is undefined."}
+		undefined
+
+ Response Code: 400 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:35:45.877Z","message":"Empty Field"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: POST - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6b
+		{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6b","method":"POST","timeStamp":"2023-02-13T18:36:07.962Z","message":"Empty Field"}
+		BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 404 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":404,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:42:35.527Z","message":"Cannot PATCH /properties/upload-multimedia/63e66ba33e2dab5089270a6d"}
+				NotFoundException: Cannot PATCH /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:42:57.843Z","message":"imageType must be a string"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:43:30.668Z","message":"imageType must be a string"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:43:43.949Z","message":"imageType must be a string"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:44:12.470Z","message":"Enter the image type"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 400 - Method: PATCH - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+				Body: undefined,
+				UserId: b068e193-7c77-401f-850d-2e8f6fc0496b
+,
+				{"statusCode":400,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"PATCH","timeStamp":"2023-02-13T18:44:30.948Z","message":"Enter the image type"}
+				BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:99:20)
+    at ValidationPipe.transform (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/common/pipes/validation.pipe.js:72:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:147:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:150:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+
+ Response Code: 404 - Method: DELETE - URL: /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+		{"statusCode":404,"path":"/properties/upload-multimedia/63e66ba33e2dab5089270a6d","method":"DELETE","timeStamp":"2023-02-13T19:22:22.471Z","message":"Cannot DELETE /properties/upload-multimedia/63e66ba33e2dab5089270a6d"}
+		NotFoundException: Cannot DELETE /properties/upload-multimedia/63e66ba33e2dab5089270a6d
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17

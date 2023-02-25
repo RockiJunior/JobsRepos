@@ -1,0 +1,62 @@
+
+ Response Code: 404 - Method: GET - URL: /favicon.ico
+		{"statusCode":404,"path":"/favicon.ico","method":"GET","timeStamp":"2023-02-02T15:59:36.471Z","message":"Cannot GET /favicon.ico"}
+		NotFoundException: Cannot GET /favicon.ico
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: GET - URL: /dosc
+		{"statusCode":404,"path":"/dosc","method":"GET","timeStamp":"2023-02-02T15:59:40.265Z","message":"Cannot GET /dosc"}
+		NotFoundException: Cannot GET /dosc
+    at callback (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:328:13)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/express/lib/router/index.js:280:10)
+    at RequestLoggerMiddleware.use (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/config/middlewares/request-logger.middleware.ts:36:3)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 404 - Method: POST - URL: /clients/login
+		{"statusCode":404,"path":"/clients/login","method":"POST","timeStamp":"2023-02-02T16:00:14.039Z","message":"El email ingresado no existe"}
+		NotFoundException: El email ingresado no existe
+    at ClientsService.clientLogin (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/src/api/GeneralUsers/clients/clients.service.ts:195:10)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/core/router/router-proxy.js:9:17
+
+ Response Code: 401 - Method: PATCH - URL: /clients/upload-photo/52b4f02d-7dc2-4c99-af22-9d4f1199d527
+		{"statusCode":401,"path":"/clients/upload-photo/52b4f02d-7dc2-4c99-af22-9d4f1199d527","method":"PATCH","timeStamp":"2023-02-02T16:06:07.380Z","message":"Unauthorized"}
+		UnauthorizedException: Unauthorized
+    at JwtAuthGuard.handleRequest (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/passport/dist/auth.guard.js:68:30)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/passport/dist/auth.guard.js:49:128
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/passport/dist/auth.guard.js:91:24
+    at allFailed (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport/lib/middleware/authenticate.js:305:9)
+    at JwtStrategy.authenticate (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport/lib/middleware/authenticate.js:369:16)
+    at authenticate (/home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/passport/lib/middleware/authenticate.js:370:7)
+    at /home/rockijunior/Escritorio/proyectosUtn/cabaProp/portalback/node_modules/@nestjs/passport/dist/auth.guard.js:96:3
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-02-02T16:06:21.820Z"}
+		undefined
+
+ Response Code: 401 - Method: POST - URL: /
+		{"statusCode":401,"path":"/","method":"POST","timeStamp":"2023-02-02T16:06:43.918Z"}
+		undefined
+
+ Response Code: 401 - Method: PATCH - URL: /
+		{"statusCode":401,"path":"/","method":"PATCH","timeStamp":"2023-02-02T16:06:54.896Z"}
+		undefined
