@@ -1,0 +1,11 @@
+.trash-archivo {
+  right: -8px;
+  bottom: -8px;
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  width: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transition: opacity 0.2s ease-in-out;
+}

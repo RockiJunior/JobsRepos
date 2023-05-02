@@ -1,0 +1,105 @@
+.treeview.treeview-select {
+  .collapse-toggle {
+    .treeview-text {
+      margin-left: 2.1rem;
+    }
+  }
+  .toggle-container {
+    position: relative;
+    input {
+      position: absolute;
+      left: 18px;
+      z-index: 2;
+    }
+  }
+}
+.treeview {
+  position: relative;
+  padding-left: 0;
+  .collapsing {
+    @include transition($treeview-transition-collapse);
+  }
+  .treeview-border {
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: var(--falcon-border-color);
+    margin-left: 3px;
+  }
+  .treeview-border-transparent {
+    border-color: transparent !important ;
+  }
+  ul {
+    &:not(.collapse-show) {
+      .treeview-row {
+        display: none;
+      }
+    }
+  }
+  .treeview-list-item {
+    list-style: none;
+    .treeview-row {
+      width: 100%;
+      height: 27px;
+      position: absolute;
+      left: 0;
+    }
+    .treeview-row-odd {
+      background-color: $treeview-row-bg-odd;
+    }
+    .treeview-row-even {
+      background-color: $treeview-row-bg-even;
+    }
+    .treeview-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      > {
+        .form-check-input {
+          margin: 0 map-get($spacers, 2) map-get($spacers, 1) 0;
+        }
+      }
+    }
+    .treeview-text {
+      display: flex;
+      align-items: center;
+      font-weight: $font-weight-semi-bold;
+      font-size: map-get($font-sizes, '-1');
+      color: $treeview-text-color;
+      padding: map-get($spacers, 1) 0;
+      margin-bottom: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .collapse-toggle {
+    position: relative;
+    display: block;
+    .treeview-text {
+      padding-left: map-get($spacers, 1);
+      margin-left: map-get($spacers, 2);
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      height: 0.4rem;
+      width: 0.4rem;
+      border-right: 2px solid $gray-400;
+      border-bottom: 2px solid $gray-400;
+      top: 45%;
+      transform: translateY(-50%) rotate(-45deg);
+      transition: $transition-base;
+      transform-origin: center;
+      transition-property: transform, border-color;
+    }
+    &.collapsed:after {
+      transform: translateY(-50%) rotate(45deg);
+    }
+  }
+  &.treeview-stripe {
+    padding-left: map-get($spacers, 2) !important;
+  }
+}

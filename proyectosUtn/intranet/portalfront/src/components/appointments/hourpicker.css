@@ -1,0 +1,7 @@
+.hour-item {
+  cursor: pointer;
+}
+
+.hour-item:hover {
+  background-color: #f5f5f5;
+}

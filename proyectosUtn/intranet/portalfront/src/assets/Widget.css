@@ -1,0 +1,16 @@
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.modal-width-column {
+  width: 250px;
+}
+
+.modal-width-row {
+  width: 490px;
+}

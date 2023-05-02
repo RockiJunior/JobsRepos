@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmacion Evento</title>
+  </head>
+  </style>
+  <body>
+    <div
+      style="
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div
+        class="content"
+        style="
+          width: 700px;
+          height: 100%;
+          background-color: #ffffff;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px 0px #7070701a;
+          padding: 30px;
+          transform: translateY(2%);
+        "
+      >
+        <div class="header">
+          <img src="{{ large_logo }}" alt="" style="
+          
+      height: auto;
+      width: 135px;
+          "/>
+        </div>
+
+        <div>
+          <div class="title">
+            <p
+              style="
+                margin-top: 10px;
+                margin-bottom: 35px;
+                font-size: 1.5em;
+                color: #707070;
+              "
+            >
+              Confirmacion al Evento de {{tipoEvento}}
+            </p>
+          </div>
+
+          <div class="detalles">
+            <p style="font-size: 14px; color: #707070">
+              Usted ha sido invitado al evento de
+              <b>{{tipoEvento}}</b> relacionado al trámite
+              <b>{{ tipoTramite }}</b> que se realizara en el dia de la fecha
+              <b>{{ fecha.inicioDia}}</b> a las <b>{{ fecha.inicioHora}}</b>,
+              recuerde que puede confirmar asistencia o rechazar la invitación en el portal o haciendo
+              click en el siguiente link:
+            </p>
+          </div>
+
+          <div class="button">
+            <a
+              href="{{url}}"
+              style="
+                background-color: #1f386f;
+                padding: 13px;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 52px;
+                display: block;
+                width: 210px;
+                border-radius: 5px;
+              "
+              >Responder invitación</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="footer"
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: -25px;
+            margin-top: 100px;
+          "
+        >
+          <div class="logo">
+            <img style="height: auto; width: 42px" src="{{ logo }}" alt="" />
+            <p
+              id="text-logo"
+              style="margin-top: 10px; font-size: 15px; color: #1f386f"
+            >
+              Colegio Profesional Inmobiliario
+            </p>
+          </div>
+
+          <div
+            class="footer-text"
+            style="
+              margin-top: 25px;
+              margin-bottom: 20px;
+              text-align: center;
+              font-size: 11px;
+              color: #707070;
+            "
+          >
+            <p>
+              Adolfo Alsina 1382, Ciudad Autónoma de Buenos Aires
+              <br />
+              Teléfono 11 4124-6060
+              <br />
+              <a
+                style="color: #1476cc; margin-top: 85px; text-decoration: none"
+                href="info@colegioinmobiliario.org.ar"
+                >info@colegioinmobiliario.org.ar</a
+              >
+            </p>
+          </div>
+        </div>
+        <hr style="height: 1px; background-color: #70707027; border: none" />
+        <div
+          class="warning"
+          style="text-align: center; font-size: 12px; color: #707070"
+        >
+          <p>
+            Si no has sido vos quien ha solicitado turno o ya confirmo en el
+            portal, por favor ignora este email. <br />
+            Gracias
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

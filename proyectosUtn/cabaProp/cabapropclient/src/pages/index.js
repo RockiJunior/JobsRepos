@@ -1,0 +1,14 @@
+export { default as About } from "./About";
+export { default as Callback } from "./Callback";
+export { default as ConfirmationPage } from "./ConfirmationPage";
+export { default as Error401 } from "./Error401";
+export { default as Error404 } from "./Error404";
+export { default as Error500 } from "./Error500";
+export { default as Favorites } from "./Favorites";
+export { default as Home } from "./Home";
+export { default as Messages } from "./Messages";
+export { default as MiPerfil } from "./MiPerfil";
+export { default as PropertiesList } from "./PropertiesList";
+export { default as RealEstateList } from "./RealEstateList";
+export { default as SavedSearches } from "./SavedSearches";
+export { default as SingleProperty } from "./SingleProperty";

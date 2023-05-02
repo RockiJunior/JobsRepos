@@ -1,0 +1,28 @@
+.notes-card {
+  scroll-behavior: smooth;
+}
+
+.notes-card::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+.notes-card::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.notes-card::-webkit-scrollbar-thumb {
+  background-color: var(--falcon-primary); /* color of the scroll thumb */
+  border-radius: 2px; /* roundness of the scroll thumb */
+}
+
+.trash-notes {
+  right: -8px;
+  bottom: -8px;
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  width: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transition: opacity 0.2s ease-in-out;
+}

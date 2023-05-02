@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/_functions';
+@import 'theme/functions';
+
+@import '~bootstrap/scss/mixins';
+@import 'theme/mixins';
+
+@import 'user-variables';
+@import 'theme/variables';
+@import '~bootstrap/scss/variables';
+
+//
+//
+// user.scss
+//
+// Place your own theme CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+	-webkit-appearance: none;
+}

@@ -1,0 +1,7 @@
+.choose-card {
+  cursor: pointer;
+}
+
+.choose-card:hover {
+  background-color: var(--falcon-soft-primary);
+}

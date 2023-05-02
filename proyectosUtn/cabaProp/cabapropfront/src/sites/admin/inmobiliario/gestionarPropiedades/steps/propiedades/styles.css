@@ -1,0 +1,37 @@
+/* ------------------Ubicacion------------------ */
+.gestionar__propiedades-box {
+    display: flex;
+}
+
+.gestionar__propiedades-box span {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 15px;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gestionar__propiedades-box span li {
+    padding: 10px 30px;
+    text-align: center;
+    list-style: none;
+}
+
+.gestionar__propiedades-box span li:hover{
+    background-color: rgb(128, 178, 195);
+} 
+
+/* ------------------Caracteristicas------------------ */
+.caracteristicas__box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.caracteristicas__quantity{
+    padding: 0 5px 0 2px;
+}
+

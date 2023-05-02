@@ -1,0 +1,15 @@
+export const propertyTypesMockup = [
+	{ propertyType: 'Departamento' },
+	{ propertyType: 'Casa' },
+	{ propertyType: 'PH' },
+	{ propertyType: 'Cochera' },
+	{ propertyType: 'Consultorio' },
+	{ propertyType: 'Fondo de Comercio' },
+	{ propertyType: 'Local Comercial' },
+	{ propertyType: 'Oficina Comercial' },
+	{ propertyType: 'Bodega/Galpón/Depósito' },
+	{ propertyType: 'Terreno' },
+	{ propertyType: 'Hotel' },
+	{ propertyType: 'Edificio' },
+	{ propertyType: 'Bóveda/Nicho/Parecela' },
+];

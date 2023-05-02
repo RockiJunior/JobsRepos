@@ -1,0 +1,191 @@
+{
+  "title": "Alta matriculación",
+  "description": "tukituki",
+  "id": "1",
+  "data": [
+    {
+      "title": "Información Personal",
+      "status": "approved",
+      "values": [
+        {
+          "name": "Nombre",
+          "type": "text",
+          "value": "Pepito"
+        },
+        {
+          "name": "Apellido",
+          "type": "text",
+          "value": "Perez"
+        },
+        {
+          "name": "Apellido Materno",
+          "type": "text",
+          "value": "Gonzalez"
+        },
+        {
+          "name": "Fecha de Nacimiento",
+          "type": "date",
+          "value": "01/01/1990"
+        },
+        {
+          "name": "Lugar de Nacimiento",
+          "type": "text",
+          "value": "CABA"
+        },
+        {
+          "name": "Nacionalidad",
+          "type": "text",
+          "value": "Argentino"
+        },
+        {
+          "name": "Documento",
+          "type": "number",
+          "value": "12345678"
+        },
+        {
+          "name": "CUIT",
+          "type": "number",
+          "value": "123456789"
+        },
+        {
+          "name": "Sexo",
+          "type": "select",
+          "value": "Masculino"
+        },
+        {
+          "name": "Estado Civil",
+          "type": "select",
+          "value": "Soltero"
+        }
+      ]
+    },
+    {
+      "title": "Información de Contacto",
+      "status": "sent",
+      "values": [
+        {
+          "name": "Domicilio Particular",
+          "type": "text",
+          "value": "Calle Falsa 123"
+        },
+        {
+          "name": "Código Postal Particular",
+          "type": "number",
+          "value": "1234"
+        },
+        {
+          "name": "Domicilio Legal",
+          "type": "text",
+          "value": "Calle Falsa 123"
+        },
+        {
+          "name": "Código Postal Legal",
+          "type": "number",
+          "value": "1234"
+        },
+        {
+          "name": "Celular",
+          "type": "number",
+          "value": "123456789"
+        },
+        {
+          "name": "Teléfono Particular",
+          "type": "number",
+          "value": "123456789"
+        },
+        {
+          "name": "Mail Personal",
+          "type": "text",
+          "value": "pepito@gmail.com"
+        },
+        {
+          "name": "Mail Alternativo",
+          "type": "text",
+          "value": "pepito2@gmail.com"
+        }
+      ]
+    },
+    {
+      "title": "Documentación Personal",
+      "status": "request",
+      "values": [
+        {
+          "name": "Foto Carnet",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Frente de DNI",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Dorso de DNI",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Escaneo de Firma",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Acreditación de Domicilio en CABA",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        }
+      ]
+    },
+    {
+      "title": "Documentación Académica",
+      "status": "pending",
+      "values": [
+        {
+          "name": "Nombre de la Universidad",
+          "type": "text"
+        },
+        {
+          "name": "Localidad de la Universidad",
+          "type": "text"
+        },
+        {
+          "name": "Fecha de Inicio de la Carrera",
+          "type": "date"
+        },
+        {
+          "name": "Fecha de Finalización de la Carrera",
+          "type": "date"
+        },
+        {
+          "name": "Título Universitario",
+          "type": "file"
+        },
+        {
+          "name": "Certificado Analítico",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "title": "Otros Documentos",
+      "status": "approved",
+      "values": [
+        {
+          "name": "Certificado de Estadísticas y Reincidencias Criminales",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Certificado de Juicios Universales",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "Logo",
+          "type": "file",
+          "value": "https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        }
+      ]
+    }
+  ]
+}

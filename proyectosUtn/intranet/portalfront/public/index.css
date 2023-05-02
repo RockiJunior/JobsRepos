@@ -1,0 +1,345 @@
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--falcon-primary); /* color of the scroll thumb */
+  border-radius: 2px; /* roundness of the scroll thumb */
+}
+
+.appointments-admin::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+.appointments-admin::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.appointments-admin::-webkit-scrollbar-thumb {
+  background-color: var(--falcon-primary); /* color of the scroll thumb */
+  border-radius: 2px; /* roundness of the scroll thumb */
+}
+
+.nav-tabs .nav-link {
+  padding-top: 0 !important;
+}
+
+.spinner-border {
+  animation: spinner-border 1s linear infinite !important;
+}
+
+.spinner-grow {
+  animation: spinner-grow 0.8s linear infinite !important;
+}
+
+.slick-prev {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+}
+.slick-next {
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+}
+
+.slide-item:hover {
+  transform: scale(1.1);
+  transition: all 0.15s ease-out;
+}
+
+.bs-tooltip-top .tooltip-inner {
+  background-color: #e63757 !important;
+}
+
+.bs-tooltip-auto[data-popper-placement^='top'] .tooltip-arrow:before,
+.bs-tooltip-top .tooltip-arrow:before {
+  border-top-color: #e63757 !important;
+}
+
+.modal-open .container-fluid,
+.modal-open .container {
+  filter: blur(3px);
+}
+
+.react-datepicker__day--disabled {
+  background-color: var(--falcon-200) !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+  background-color: var(--falcon-soft-primary) !important;
+}
+
+.react-datepicker__day--in-range {
+  background-color: var(--falcon-soft-primary) !important;
+}
+
+.react-datepicker__time-list-item--disabled {
+  display: none;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.3em !important;
+}
+
+.fc .fc-button {
+  padding: 5px !important;
+}
+
+.fc .fc-daygrid-event {
+  padding: 0 !important;
+}
+
+.fc-scroller {
+  height: auto !important;
+  overflow-y: auto;
+}
+
+.fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+  margin-bottom: 0 !important;
+}
+
+.fc-timegrid-col-events {
+  margin: 0 1px 0 1px !important;
+}
+
+.fc-timegrid-event {
+  margin: 1px !important;
+}
+
+.fc-timegrid-more-link {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white !important;
+  height: fit-content;
+}
+
+.fc .fc-timeGridDay-view .fc-v-event .fc-event-main:after {
+  content: none !important;
+}
+
+.fc-event-main {
+  padding-left: 0 !important;
+}
+
+.fc .fc-timeGridDay-view .fc-timegrid-event {
+  padding: 5px !important;
+}
+
+.calendar-event-id-1-dark {
+  background-color: #511951 !important;
+}
+.calendar-event-id-5-dark {
+  background-color: #5f1c13 !important;
+}
+.calendar-event-id-2-dark {
+  background-color: #5d101f !important;
+}
+.calendar-event-id-6-dark {
+  background-color: #642c11 !important;
+}
+.calendar-event-id-3-dark {
+  background-color: #6b5212 !important;
+}
+.calendar-event-id-7-dark {
+  background-color: #194510 !important;
+}
+.calendar-event-id-4-dark {
+  background-color: #12423c !important;
+}
+.calendar-event-id-8-dark {
+  background-color: #181342 !important;
+}
+.calendar-event-id-9-dark {
+  background-color: #291341 !important;
+}
+.calendar-event-id-10-dark {
+  background-color: #050303 !important;
+}
+
+.calendar-event-id-1-light {
+  background-color: #d08ed0 !important;
+}
+.calendar-event-id-5-light {
+  background-color: #d5948b !important;
+}
+.calendar-event-id-2-light {
+  background-color: #c87f8d !important;
+}
+.calendar-event-id-6-light {
+  background-color: #cca18b !important;
+}
+.calendar-event-id-3-light {
+  background-color: #d0ba83 !important;
+}
+.calendar-event-id-7-light {
+  background-color: #92cc87 !important;
+}
+.calendar-event-id-4-light {
+  background-color: #8cd9d0 !important;
+}
+.calendar-event-id-8-light {
+  background-color: #9b93df !important;
+}
+.calendar-event-id-9-light {
+  background-color: #b28cd9 !important;
+}
+.calendar-event-id-10-light {
+  background-color: #b0b0b0 !important;
+}
+
+.rbc-month-view {
+  height: 100vh !important;
+  flex: auto !important;
+  border: none !important;
+}
+
+.rbc-time-view {
+  border: none !important;
+}
+
+.rbc-today {
+  background-color: transparent !important;
+}
+.rbc-time-header-gutter {
+  background-color: transparent !important;
+}
+.rbc-time-gutter {
+  background-color: transparent !important;
+}
+.rbc-off-range-bg {
+  background: var(--falcon-300) !important;
+  color: var(--falcon-900) !important;
+}
+
+.rbc-day-slot .rbc-time-slot {
+  border-bottom: 1px dashed var(--falcon-300) !important;
+  border-top: none !important;
+}
+
+.rbc-allday-cell {
+  display: none !important;
+}
+
+.rbc-time-header-content > .rbc-row.rbc-row-resource {
+  border-bottom: none !important;
+}
+
+.rbc-time-content {
+  border-top: 1px solid var(--falcon-300) !important;
+}
+
+.rbc-time-content::-webkit-scrollbar {
+  height: 7px; /* width of the entire scrollbar */
+}
+
+.rbc-time-content::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.rbc-time-content::-webkit-scrollbar-thumb {
+  background-color: var(--falcon-primary); /* color of the scroll thumb */
+  border-radius: 2px; /* roundness of the scroll thumb */
+}
+
+.rbc-header {
+  background-color: var(--falcon-100) !important;
+}
+
+.rbc-time-content > .rbc-time-gutter {
+  background-color: var(--falcon-100) !important;
+}
+
+.rbc-time-header-gutter {
+  background-color: var(--falcon-100) !important;
+}
+
+.rbc-current-time-indicator {
+  background-color: red !important;
+}
+.rbc-event {
+  border: none !important;
+  color: var(--falcon-dark) !important;
+  font-weight: 600 !important;
+  background-clip: content-box !important;
+  padding: 2px !important;
+}
+
+.rbc-time-content > * + * > * {
+  border-left: 1px solid var(--falcon-700) !important;
+}
+
+.rbc-timeslot-group {
+  border-bottom: 1px solid var(--falcon-700) !important;
+}
+
+.rbc-show-more {
+  background-color: transparent !important;
+}
+
+.rbc-time-view-resources .rbc-header {
+  width: auto !important;
+  min-width: 90px;
+}
+
+.rbc-time-view-resources .rbc-day-slot {
+  min-width: 90px !important;
+}
+
+.rbc-day-slot .rbc-events-container {
+  margin-right: 0 !important;
+  cursor: pointer !important;
+}
+
+.calendar-event-id-unavailable {
+  background-color: var(--falcon-300) !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  cursor: auto !important;
+  margin-top: 1px !important;
+  opacity: 0.8 !important;
+}
+
+.rbc-month-row {
+  cursor: pointer !important;
+}
+
+.selected-event {
+  border: 4px groove var(--falcon-info) !important;
+}
+
+.Toastify__toast {
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5) !important;
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+.breathe {
+  animation: crescendo 0.7s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.no-selectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.card {
+  background-color: var(--falcon-100) !important;
+}

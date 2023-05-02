@@ -1,0 +1,14 @@
+node_modules
+# Keep environment variables out of version control
+
+coverage
+dist
+logs
+prisma/migrations
+logsMiddleware
+
+public
+.env
+.env.fer
+.env.luan
+.env.emi

@@ -1,0 +1,1062 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+  binaryTargets   = ["native", "debian-openssl-1.1.x", "linux-musl"]
+  engineType      = "binary"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Area {
+  id               Int                @id @default(autoincrement())
+  nombre           String             @unique
+  empleados        Empleado[]
+  tipoTramite      TipoTramite[]
+  turnos           Turno[]
+  disponibilidad   Disponibilidad[]
+  tramites         AreaToTramite[]
+  AreaToExpediente AreaToExpediente[]
+  areaToCedula     AreaToCedula[]
+  alertas          Alerta[]
+}
+
+model Rol {
+  id         Int          @id @default(autoincrement())
+  nombre     String
+  deletedAt  DateTime?
+  empleados  Empleado[]   @relation("EmpleadosToRol")
+  PermisoRol PermisoRol[]
+}
+
+model Permiso {
+  id         Int          @id @default(autoincrement())
+  nombre     String
+  PermisoRol PermisoRol[]
+}
+
+model PermisoRol {
+  rol       Rol     @relation(fields: [rolId], references: [id])
+  rolId     Int
+  permiso   Permiso @relation(fields: [permisoId], references: [id])
+  permisoId Int
+
+  @@id([rolId, permisoId])
+}
+
+model Usuario {
+  id                 Int                  @id @default(autoincrement())
+  nombre             String
+  apellido           String
+  dni                String               @unique
+  email              String               @unique
+  telefono           String?
+  contrasenia        String
+  verificado         Boolean              @default(false)
+  carpetas           Carpeta[]
+  notificaciones     Notificacion[]
+  empleado           Empleado?
+  transacciones      Transaccion[]
+  turnos             Turno[]
+  Usuario_Evento     Usuario_Evento[]
+  historial          Registro[]
+  matricula          Matricula[]
+  nroUltimaMatricula Int?
+  datos              Json                 @default("{}")
+  cedulas            CedulaNotificacion[]
+  recepcionCedula    TipoCedula           @default(fisica)
+}
+
+model Matricula {
+  id          Int             @id @unique
+  libro       String?
+  folio       String?
+  tomo        String?
+  fecha       DateTime        @default(now())
+  estado      EstadoMatricula @default(pendiente)
+  usuario     Usuario         @relation(fields: [usuarioId], references: [id])
+  usuarioId   Int
+  vencimiento DateTime?
+}
+
+model Empleado {
+  usuario              Usuario                @relation(fields: [usuarioId], references: [id])
+  usuarioId            Int                    @id @unique
+  roles                Rol[]                  @relation("EmpleadosToRol")
+  area                 Area?                  @relation(fields: [areaId], references: [id])
+  areaId               Int?
+  dictamen             Dictamen[]
+  transacciones        Transaccion[]
+  informe              Informe[]
+  informeFiscalizacion InformeFiscalizacion[]
+  evento               Evento[]
+  notaInterna          NotaInterna[]
+  intimacion           Intimacion[]
+  archivos             Archivo[]
+  fallo                Fallo[]
+  deletedAt            DateTime?
+
+  tramites                          Tramite[]
+  cedulas                           CedulaNotificacion[]
+  expedientes                       Expediente[]
+  resoluciones                      Resolucion[]
+  constataciones                    Constatacion[]
+  alertas                           Alerta[]
+  despachosImputaciones             DespachoImputacion[]
+  declaracionJuaradaFiscalizaciones DeclaracionJuradaFiscalizacion[]
+}
+
+model Carpeta {
+  id          Int          @id @default(autoincrement())
+  descripcion String
+  tramites    Tramite[]
+  usuario     Usuario      @relation(fields: [usuarioId], references: [id])
+  usuarioId   Int
+  estado      Boolean      @default(true)
+  expedientes Expediente[]
+}
+
+//EXPEDIENTES
+
+enum EstadoExpediente {
+  pendiente
+  fiscalizacion_abierta
+  proceso_legal_abierto
+  finalizado
+  archivado
+}
+
+enum EstadoProcesoLegales {
+  no_ratificado
+  desestimado
+  iniciado
+  despacho_citacion_a_descargo
+  descargo
+  apertura_a_prueba
+  a_resolver
+  fallo_1ra_instancia
+  finalizado
+  cancelado
+}
+
+model Expediente {
+  id                  Int              @id @default(autoincrement())
+  numeroLegales       String?          @unique
+  numeroFiscalizacion String?          @unique
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
+  expiracion          DateTime?
+  estado              EstadoExpediente @default(pendiente)
+  info                Json             @default("{}")
+  fechaFin            DateTime?
+
+  turnos    Turno[]
+  historial Registro[]
+  plazos    Plazo[]
+
+  caratula Caratula?
+
+  notas NotaInterna[]
+
+  archivos Archivo[]
+  informes Informe[]
+
+  fiscalizaciones Fiscalizacion[]
+  procesosLegales ProcesoLegales[]
+
+  areas AreaToExpediente[] //preguntar
+
+  carpeta   Carpeta? @relation(fields: [carpetaId], references: [id])
+  carpetaId Int?
+
+  empleadosAsignados Empleado[]
+
+  expedientesHijos  Expediente[] @relation("ExpedienteRelacionados")
+  expedientePadre   Expediente?  @relation("ExpedienteRelacionados", fields: [expedientePadreId], references: [id])
+  expedientePadreId Int?
+
+  tramitesHijos  Tramite[] @relation("ExpedientesTramites")
+  tramitePadre   Tramite?  @relation("TramitesExpedientes", fields: [tramitePadreId], references: [id])
+  tramitePadreId Int?
+
+  denuncia   Denuncia             @relation(fields: [denunciaId], references: [id])
+  denunciaId Int                  @unique
+  isDenuncia Boolean
+  cedulas    CedulaNotificacion[]
+}
+
+model ProcesoLegales {
+  id                 Int                  @id @default(autoincrement())
+  createdAt          DateTime             @default(now())
+  fechaFin           DateTime?
+  estado             EstadoProcesoLegales @default(iniciado)
+  info               Json                 @default("{}")
+  notas              NotaInterna[]
+  archivos           Archivo[]
+  fallos             Fallo[]
+  dictamen           Dictamen[]
+  resoluciones       Resolucion[]
+  despachoImputacion DespachoImputacion?
+  cedulas            CedulaNotificacion[]
+  informes           Informe[]
+  pasoActual         Int                  @default(0)
+
+  expediente   Expediente @relation(fields: [expedienteId], references: [id])
+  expedienteId Int
+  expiracion   DateTime?
+  turnos       Turno[]
+  historial    Registro[]
+}
+
+enum EstadoFiscalizacion {
+  archivada
+  cancelada
+  causa_penal
+  finalizada
+  pendiente
+  esperando_ddjj_y_pago
+}
+
+model CobroConcepto {
+  cobroFiscalizacion   CobroFiscalizacion @relation(fields: [cobroFiscalizacionId], references: [id])
+  cobroFiscalizacionId Int
+  concepto             Concepto           @relation(fields: [conceptoId], references: [id])
+  conceptoId           Int
+  cantidad             Int                @default(1)
+
+  @@id([cobroFiscalizacionId, conceptoId])
+}
+
+model CobroFiscalizacion {
+  id              Int             @id @default(autoincrement())
+  fiscalizacion   Fiscalizacion   @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int             @unique
+  CobroConcepto   CobroConcepto[]
+}
+
+model Fiscalizacion {
+  id             Int                 @id @default(autoincrement())
+  constataciones Constatacion[]
+  titulo         String
+  estado         EstadoFiscalizacion @default(pendiente)
+  createdAt      DateTime            @default(now())
+
+  notas   NotaInterna[]
+  cedulas CedulaNotificacion[]
+
+  tipo                     TipoFiscalizacion               @relation(fields: [tipoId], references: [id])
+  tipoId                   Int
+  InputsValueFiscalizacion InputsValueFiscalizacion[]
+  expediente               Expediente                      @relation(fields: [expedienteId], references: [id])
+  expedienteId             Int
+  transaccion              Transaccion?
+  cobroFiscalizacion       CobroFiscalizacion?
+  informeFiscalizacion     InformeFiscalizacion?
+  archivos                 Archivo[]
+  historial                Registro[]
+  declaracionJurada        DeclaracionJuradaFiscalizacion?
+}
+
+model TipoFiscalizacion {
+  id              Int                    @id @default(autoincrement())
+  secciones       SeccionFiscalizacion[]
+  fiscalizaciones Fiscalizacion[]
+}
+
+model SeccionFiscalizacion {
+  id     Int     @id @default(autoincrement())
+  titulo String
+  tipo   String?
+  inputs Input[]
+
+  tipoFiscalizacion   TipoFiscalizacion? @relation(fields: [tipoFiscalizacionId], references: [id])
+  tipoFiscalizacionId Int?
+}
+
+model InputsValueFiscalizacion {
+  value      String?
+  estado     EstadoInput @default(pending)
+  comentario String?
+  archivos   Documento[]
+
+  fiscalizacion   Fiscalizacion @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int
+  input           Input         @relation(fields: [inputNombre], references: [nombre])
+  inputNombre     String
+
+  @@id([fiscalizacionId, inputNombre])
+}
+
+//INPUTS
+enum InputType {
+  text
+  textarea
+  select
+  number
+  date
+  dateTime
+  file
+  choose
+  checkbox
+  buscadorMatriculado
+}
+
+model Input {
+  nombre       String        @id
+  titulo       String
+  opciones     Json?
+  tipo         InputType
+  ayuda        String?
+  validaciones Validaciones?
+
+  secciones            Seccion[]
+  seccionFiscalizacion SeccionFiscalizacion[]
+
+  InputValues             InputsValues[]
+  inputValueFiscalizacion InputsValueFiscalizacion[]
+}
+
+enum InputRegex {
+  email
+  onlyNumbers
+  onlyLetters
+}
+
+model Validaciones {
+  inputNombre String      @id @unique
+  min         Int?
+  max         Int?
+  regex       InputRegex?
+  number      Json?
+  input       Input       @relation(fields: [inputNombre], references: [nombre])
+}
+
+enum EstadoInput {
+  pending
+  sent
+  request
+  approved
+  rejected
+}
+
+//TRAMITES
+
+enum EstadoTramite {
+  aprobado
+  rechazado
+  pendiente
+  cancelado
+}
+
+model Tramite {
+  id               Int                  @id @default(autoincrement())
+  numero           Int                  @unique
+  carpeta          Carpeta?             @relation(fields: [carpetaId], references: [id])
+  carpetaId        Int?
+  tipo             TipoTramite          @relation(fields: [tipoId], references: [id])
+  tipoId           Int
+  estado           EstadoTramite        @default(pendiente)
+  inputValues      InputsValues[]
+  empleadoAsignado Empleado?            @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int?
+  createdAt        DateTime             @default(now())
+  fechaFin         DateTime?
+  expiracion       DateTime?
+  transacciones    Transaccion[]
+  dictamen         Dictamen[]
+  pasoActual       Int                  @default(0)
+  asignarEmpleado  Boolean              @default(false)
+  tipoSeccion      String?
+  informe          Informe[]
+  turno            Turno[]
+  areas            AreaToTramite[]
+  historial        Registro[]
+  plazos           Plazo[]
+  notaInterna      NotaInterna[]
+  intimacion       Intimacion[]
+  resoluciones     Resolucion[]
+  archivos         Archivo[]
+  cedulas          CedulaNotificacion[]
+
+  tramitesHijos  Tramite[] @relation("TramitesRelacionados")
+  tramitePadre   Tramite?  @relation("TramitesRelacionados", fields: [tramitePadreId], references: [id])
+  tramitePadreId Int?
+
+  expedientesHijos  Expediente[] @relation("TramitesExpedientes")
+  expedientePadre   Expediente?  @relation("ExpedientesTramites", fields: [expedientePadreId], references: [id])
+  expedientePadreId Int?
+
+  datosUsuario   DatosUsuario @relation(fields: [datosUsuarioId], references: [id])
+  datosUsuarioId Int          @unique
+  info           Json         @default("{}")
+}
+
+enum TipoTipoTramite {
+  declaracion_jurada
+  tramite
+  certificado
+  denuncia
+}
+
+enum TipoTramiteInicio {
+  empleado
+  usuario
+  ambos
+  externo
+}
+
+enum Requiere {
+  matricula
+  noMatricula
+  matriculaCesante
+  actividadComercial
+  oculto
+}
+
+model TipoTramite {
+  id           Int               @id @default(autoincrement())
+  titulo       String
+  secciones    Seccion[]
+  tramite      Tramite[]
+  plazo        Int
+  areaInicial  Area              @relation(fields: [areaId], references: [id])
+  areaId       Int
+  pasos        Json[]
+  tipoEventos  TipoEvento[]
+  tipo         TipoTipoTramite
+  puedeIniciar TipoTramiteInicio
+  requiere     Requiere
+  descripcion  String?
+}
+
+model Seccion {
+  id            Int         @id @default(autoincrement())
+  titulo        String
+  tipo          String?
+  inputs        Input[]
+  tipoTramite   TipoTramite @relation(fields: [tipoTramiteId], references: [id])
+  tipoTramiteId Int
+}
+
+model InputsValues {
+  tramite     Tramite @relation(fields: [tramiteId], references: [id])
+  tramiteId   Int
+  input       Input   @relation(fields: [inputNombre], references: [nombre])
+  inputNombre String
+
+  value      String?
+  estado     EstadoInput @default(pending)
+  comentario String?
+  archivos   Documento[]
+
+  @@id([tramiteId, inputNombre])
+}
+
+model Notificacion {
+  id          Int       @id @default(autoincrement())
+  titulo      String
+  descripcion String
+  createdAt   DateTime  @default(now())
+  leido       DateTime?
+  vista       DateTime?
+  info        Json?
+  usuario     Usuario   @relation(fields: [usuarioId], references: [id])
+  usuarioId   Int
+}
+
+model Plazo {
+  id                Int                 @id @default(autoincrement())
+  fechaInicio       DateTime
+  fechaVencimiento  DateTime
+  fechaFinalizacion DateTime?
+  areas             String
+  Tramite           Tramite?            @relation(fields: [tramiteId], references: [id])
+  tramiteId         Int?
+  Expediente        Expediente?         @relation(fields: [expedienteId], references: [id])
+  expedienteId      Int?
+  cedula            CedulaNotificacion? @relation(fields: [cedulaId], references: [id])
+  cedulaId          Int?
+}
+
+model Documento {
+  id               Int      @id @default(autoincrement())
+  archivoNombre    String
+  archivoUbicacion String
+  fecha            DateTime
+
+  transaccion   Transaccion? @relation(fields: [transaccionId], references: [id])
+  transaccionId Int?
+
+  inputValue              InputsValues?             @relation(fields: [tramiteId, inputNombre], references: [tramiteId, inputNombre])
+  tramiteId               Int?
+  inputNombre             String?
+  inputValueFiscalizacion InputsValueFiscalizacion? @relation(fields: [fiscalizacionId, inputNombre], references: [fiscalizacionId, inputNombre])
+  fiscalizacionId         Int?
+  informe                 Informe?                  @relation(fields: [informeId], references: [id])
+  informeId               Int?
+  informeFiscalizacion    InformeFiscalizacion?     @relation(fields: [informeFiscalizacionId], references: [id])
+  informeFiscalizacionId  Int?
+  dictamen                Dictamen?                 @relation(fields: [dictamenId], references: [id])
+  dictamenId              Int?
+  fallo                   Fallo?                    @relation(fields: [falloId], references: [id])
+  falloId                 Int?
+  intimacion              Intimacion?               @relation(fields: [intimacionId], references: [id])
+  intimacionId            Int?
+  cedula                  CedulaNotificacion?       @relation(fields: [cedulaId], references: [id])
+  cedulaId                Int?
+  resolucion              Resolucion?               @relation(fields: [resolucionId], references: [id])
+  resolucionId            Int?
+  constatacion            Constatacion?             @relation(fields: [constatacionId], references: [id])
+  constatacionId          Int?
+}
+
+model Transaccion {
+  id            Int               @id @default(autoincrement())
+  comprobante   Documento[]
+  comentario    String?
+  monto         Float             @default(0)
+  fecha         DateTime          @default(now())
+  estado        EstadoTransaccion @default(pending)
+  cuotaNro      Int?
+  montoDinamico Float?
+  info          Json              @default("{}")
+
+  tipoCuota             OpcionCuotas?   @relation(fields: [opcionCuotasId], references: [id])
+  opcionCuotasId        Int?
+  tipoTransaccion       TipoTransaccion @relation(fields: [tipoTransaccionNombre], references: [nombre])
+  tipoTransaccionNombre String
+
+  empleado   Empleado? @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int?
+  usuario    Usuario?  @relation(fields: [usuarioId], references: [id])
+  usuarioId  Int?
+  tramite    Tramite?  @relation(fields: [tramiteId], references: [id])
+  tramiteId  Int?
+
+  fiscalizacion   Fiscalizacion? @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int?           @unique
+}
+
+enum nombreMontoPorcentaje {
+  sueldoVitalMovil
+  matriculaAnual
+}
+
+enum TipoConcepto {
+  tramite
+  fiscalizacion
+}
+
+model Concepto {
+  id                      Int                       @id @default(autoincrement())
+  nombre                  String
+  nombreMontoPorcentaje   nombreMontoPorcentaje?
+  porcentaje              Float?
+  monto                   Float?
+  padre                   String?
+  tipo                    TipoConcepto              @default(tramite)
+  CobroConcepto           CobroConcepto[]
+  TipoTransaccionConcepto TipoTransaccionConcepto[]
+}
+
+model OpcionCuotas {
+  id       Int     @id @default(autoincrement())
+  cantidad Int
+  monto    Float
+  cuotas   Json[]
+  interes  Float   @default(0)
+  activo   Boolean @default(true)
+
+  TipoTransaccion       TipoTransaccion? @relation(fields: [tipoTransaccionNombre], references: [nombre])
+  tipoTransaccionNombre String?
+  Transaccion           Transaccion[]
+}
+
+model TipoTransaccionConcepto {
+  tipoTransaccion       TipoTransaccion @relation(fields: [tipoTransaccionNombre], references: [nombre])
+  tipoTransaccionNombre String
+  concepto              Concepto        @relation(fields: [conceptoId], references: [id])
+  conceptoId            Int
+
+  cantidad Int @default(1)
+
+  @@id([tipoTransaccionNombre, conceptoId])
+}
+
+model TipoTransaccion {
+  nombre                  String                    @id @unique
+  transacciones           Transaccion[]
+  opcionesCuotas          OpcionCuotas[]
+  createdAt               DateTime                  @default(now())
+  TipoTransaccionConcepto TipoTransaccionConcepto[]
+}
+
+enum EstadoTransaccion {
+  pending
+  rejected
+  approved
+  sent
+  request
+}
+
+enum EstadoTurno {
+  pending
+  approved
+  rejected
+}
+
+model Turno {
+  id     Int         @id @default(autoincrement())
+  estado EstadoTurno @default(pending)
+  inicio DateTime?
+  fin    DateTime?
+  info   Json        @default("{}")
+
+  usuario          Usuario?        @relation(fields: [usuarioId], references: [id])
+  usuarioId        Int?
+  area             Area            @relation(fields: [areaId], references: [id])
+  areaId           Int
+  tramite          Tramite?        @relation(fields: [tramiteId], references: [id])
+  tramiteId        Int?
+  Expediente       Expediente?     @relation(fields: [expedienteId], references: [id])
+  expedienteId     Int?
+  procesoLegales   ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+}
+
+model Disponibilidad {
+  id      Int       @id @default(autoincrement())
+  nombre  String
+  area    Area      @relation(fields: [areaId], references: [id])
+  areaId  Int
+  lun     Json
+  mar     Json
+  mie     Json
+  jue     Json
+  vie     Json
+  sab     Json
+  dom     Json
+  deleted DateTime?
+  inicio  DateTime
+  fin     DateTime
+}
+
+enum EstadoEvento {
+  finalizado
+  pendiente
+}
+
+model TipoEvento {
+  id             Int              @id @default(autoincrement())
+  nombre         String           @unique
+  descripcion    String
+  tipoTramite    TipoTramite?     @relation(fields: [tipoTramiteId], references: [id])
+  tipoTramiteId  Int?
+  evento         Evento[]
+  Usuario_Evento Usuario_Evento[]
+}
+
+model Evento {
+  id             Int              @id @default(autoincrement())
+  fecha          DateTime
+  estado         EstadoEvento     @default(pendiente)
+  superAdmin     Empleado         @relation(fields: [superAdminId], references: [usuarioId])
+  superAdminId   Int
+  tipoEvento     TipoEvento       @relation(fields: [tipoEventoId], references: [id])
+  tipoEventoId   Int
+  Usuario_Evento Usuario_Evento[]
+}
+
+enum EstadoUsuarioEvento {
+  confirmado
+  aprobado
+  postergado
+  invitado
+  pendiente
+}
+
+model Usuario_Evento {
+  id           Int                 @id @default(autoincrement())
+  usuario      Usuario             @relation(fields: [usuarioId], references: [id])
+  usuarioId    Int
+  evento       Evento?             @relation(fields: [eventoId], references: [id])
+  eventoId     Int?
+  estado       EstadoUsuarioEvento @default(pendiente)
+  tipoEvento   TipoEvento          @relation(fields: [tipoEventoId], references: [id])
+  tipoEventoId Int
+  info         Json                @default("{}")
+}
+
+enum EstadoAreaTramite {
+  pending
+  rejected
+  approved
+}
+
+model AreaToTramite {
+  area      Area              @relation(fields: [areaId], references: [id])
+  areaId    Int
+  tramite   Tramite           @relation(fields: [tramiteId], references: [id])
+  tramiteId Int
+  status    EstadoAreaTramite @default(pending)
+  deleted   DateTime?
+
+  @@id([areaId, tramiteId])
+}
+
+model AreaToExpediente {
+  area         Area              @relation(fields: [areaId], references: [id])
+  areaId       Int
+  expediente   Expediente        @relation(fields: [expedienteId], references: [id])
+  expedienteId Int
+  status       EstadoAreaTramite @default(pending)
+  deleted      DateTime?
+
+  @@id([areaId, expedienteId])
+}
+
+model Registro {
+  id              Int             @id @default(autoincrement())
+  nombre          String
+  descripcion     String
+  fecha           DateTime        @default(now())
+  usuario         Usuario?        @relation(fields: [usuarioId], references: [id])
+  usuarioId       Int?
+  tramite         Tramite?        @relation(fields: [tramiteId], references: [id])
+  tramiteId       Int?
+  Expediente      Expediente?     @relation(fields: [expedienteId], references: [id])
+  expedienteId    Int?
+  Fiscalizacion   Fiscalizacion?  @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int?
+  ProcesoLegal    ProcesoLegales? @relation(fields: [procesoLegalId], references: [id])
+  procesoLegalId  Int?
+  info            Json?
+}
+
+enum EstadoMatricula {
+  activo_sin_actividad
+  activo
+  baja
+  inactivo
+  pasiva
+  pendiente
+  cesante
+}
+
+model NotaInterna {
+  id               Int                 @id @default(autoincrement())
+  descripcion      String
+  createdAt        DateTime            @default(now())
+  empleado         Empleado            @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int
+  deletedAt        DateTime?
+  Expediente       Expediente?         @relation(fields: [expedienteId], references: [id])
+  expedienteId     Int?
+  tramite          Tramite?            @relation(fields: [tramiteId], references: [id])
+  tramiteId        Int?
+  cedula           CedulaNotificacion? @relation(fields: [cedulaId], references: [id])
+  cedulaId         Int?
+  fiscalizacion    Fiscalizacion?      @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId  Int?
+  procesoLegales   ProcesoLegales?     @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+}
+
+model Archivo {
+  id               Int             @id @default(autoincrement())
+  titulo           String
+  archivoNombre    String
+  archivoUbicacion String
+  empleado         Empleado?       @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int?
+  fecha            DateTime        @default(now())
+  Expediente       Expediente?     @relation(fields: [expedienteId], references: [id])
+  expedienteId     Int?
+  tramite          Tramite?        @relation(fields: [tramiteId], references: [id])
+  tramiteId        Int?
+  paso             Int?
+  procesoLegales   ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+  fiscalizacion    Fiscalizacion?  @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId  Int?
+}
+
+model AreaToCedula {
+  area     Area               @relation(fields: [areaId], references: [id])
+  areaId   Int
+  cedula   CedulaNotificacion @relation(fields: [cedulaId], references: [id])
+  cedulaId Int
+  deleted  DateTime?
+
+  @@id([areaId, cedulaId])
+}
+
+enum TipoCedula {
+  fisica
+  electronica
+}
+
+model CedulaNotificacion {
+  id                  Int             @id @default(autoincrement())
+  numero              Int             @unique
+  titulo              String
+  motivo              String
+  areas               AreaToCedula[]
+  usuario             Usuario         @relation(fields: [usuarioId], references: [id])
+  usuarioId           Int
+  empleadoAsignado    Empleado?       @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId          Int?
+  tramitePadre        Tramite?        @relation(fields: [tramiteId], references: [id])
+  tramiteId           Int?
+  createdAt           DateTime        @default(now())
+  fechaRecepcion      DateTime?
+  pasoActual          Int             @default(0)
+  pasoCreacion        Int?
+  informes            Informe[]
+  notas               NotaInterna[]
+  documentos          Documento[]
+  estado              TipoCedula
+  fiscalizacionPadre  Fiscalizacion?  @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId     Int?
+  procesoLegalesPadre ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId    Int?
+  plazos              Plazo[]
+  expedientePadre     Expediente?     @relation(fields: [expedienteId], references: [id])
+  expedienteId        Int?
+}
+
+model Caratula {
+  id           Int        @id @default(autoincrement())
+  titulo       String
+  denunciante  String
+  denunciado   String
+  expediente   Expediente @relation(fields: [expedienteId], references: [id])
+  expedienteId Int        @unique
+}
+
+//DOCUMENTOS__________________________________________
+model Dictamen {
+  id         Int         @id @default(autoincrement())
+  titulo     String
+  comentario String
+  documento  Documento[]
+  paso       Int?
+  createdAt  DateTime    @default(now())
+
+  empleado   Empleado @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int
+
+  tramite   Tramite? @relation(fields: [tramiteId], references: [id])
+  tramiteId Int?
+
+  procesoLegales   ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+}
+
+model Informe {
+  id         Int         @id @default(autoincrement())
+  titulo     String
+  comentario String
+  documento  Documento[]
+  paso       Int
+  createdAt  DateTime    @default(now())
+
+  empleado   Empleado @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int
+
+  tramite   Tramite? @relation(fields: [tramiteId], references: [id])
+  tramiteId Int?
+
+  expediente   Expediente? @relation(fields: [expedienteId], references: [id])
+  expedienteId Int?
+
+  cedula   CedulaNotificacion? @relation(fields: [cedulaId], references: [id])
+  cedulaId Int?
+
+  procesoLegales   ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+}
+
+model InformeFiscalizacion {
+  id              Int           @id @default(autoincrement())
+  titulo          String
+  comentario      String
+  documento       Documento[]
+  paso            Int?
+  createdAt       DateTime      @default(now())
+  empleado        Empleado      @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId      Int
+  fiscalizacion   Fiscalizacion @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int           @unique
+}
+
+model Intimacion {
+  id         Int         @id @default(autoincrement())
+  titulo     String
+  comentario String
+  documento  Documento[]
+  paso       Int
+  createdAt  DateTime    @default(now())
+
+  empleado   Empleado @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int
+
+  tramite   Tramite @relation(fields: [tramiteId], references: [id])
+  tramiteId Int
+}
+
+model Resolucion {
+  id         Int         @id @default(autoincrement())
+  titulo     String
+  comentario String
+  documento  Documento[]
+  paso       Int?
+  createdAt  DateTime    @default(now())
+
+  empleado   Empleado @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int
+
+  tramite   Tramite? @relation(fields: [tramiteId], references: [id])
+  tramiteId Int?     @unique
+
+  procesoLegales   ProcesoLegales? @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int?
+}
+
+model Fallo {
+  id         Int         @id @default(autoincrement())
+  titulo     String
+  comentario String
+  documento  Documento[]
+  paso       Int?
+  createdAt  DateTime    @default(now())
+  tipo       TipoFallo
+
+  empleado         Empleado       @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int
+  procesoLegales   ProcesoLegales @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int
+}
+
+enum TipoFallo {
+  sin_sancion
+  advertencia_privada
+  apercibiento_publico
+  multa
+  suspension
+  cancelacion
+}
+
+model DespachoImputacion {
+  id               Int                              @id @default(autoincrement())
+  titulo           String
+  motivo           String
+  procesoLegales   ProcesoLegales                   @relation(fields: [procesoLegalesId], references: [id])
+  procesoLegalesId Int                              @unique
+  paso             Int                              @default(3)
+  imputaciones     DespachoImputacionToImputacion[]
+  empleado         Empleado                         @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int
+  createdAt        DateTime                         @default(now())
+}
+
+model DespachoImputacionToImputacion {
+  despachoImputacion   DespachoImputacion @relation(fields: [despachoImputacionId], references: [id])
+  despachoImputacionId Int
+  imputacion           Imputacion         @relation(fields: [imputacionId], references: [id])
+  imputacionId         Int
+
+  @@id([despachoImputacionId, imputacionId])
+}
+
+model Imputacion {
+  id                 Int                              @id @default(autoincrement())
+  titulo             String
+  padre              PadreImputacion                  @relation(fields: [padreImputacionId], references: [id])
+  DespachoImputacion DespachoImputacionToImputacion[]
+  padreImputacionId  Int
+}
+
+model PadreImputacion {
+  id           Int          @id @default(autoincrement())
+  titulo       String
+  imputaciones Imputacion[]
+}
+
+model TextoPdf {
+  id     Int    @id @default(autoincrement())
+  titulo String
+  texto  String
+}
+
+model Constatacion {
+  id              Int              @id @default(autoincrement())
+  titulo          String
+  comentario      String
+  documento       Documento[]
+  createdAt       DateTime         @default(now())
+  estado          EstadoExpediente
+  empleado        Empleado         @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId      Int
+  fecha           DateTime
+  fiscalizacion   Fiscalizacion?   @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId Int?
+}
+
+model Alerta {
+  id         Int       @id @default(autoincrement())
+  mensaje    String
+  fecha      DateTime
+  area       Area?     @relation(fields: [areaId], references: [id])
+  areaId     Int?
+  empleado   Empleado? @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId Int?
+  info       Json      @default("{}")
+}
+
+model Denuncia {
+  id         Int         @id @default(autoincrement())
+  expediente Expediente?
+
+  nombreDenunciante   String
+  apellidoDenunciante String?
+  dniDenunciante      String?
+  nombreDenunciado    String?
+  apellidoDenunciado  String?
+  dniDenunciado       String?
+  motivo              String
+  info                Json    @default("{}")
+}
+
+model Configuracion {
+  id               Int @id @default(autoincrement())
+  sueldoVitalMovil Int
+  matriculaAnual   Int
+}
+
+model DatosUsuario {
+  id      Int      @id @default(autoincrement())
+  tramite Tramite?
+
+  nombre   String?
+  apellido String?
+  dni      String?
+  info     Json    @default("{}")
+}
+
+model DeclaracionJuradaFiscalizacion {
+  id               Int           @id @default(autoincrement())
+  titulo           String
+  archivoNombre    String
+  archivoUbicacion String
+  empleado         Empleado?     @relation(fields: [empleadoId], references: [usuarioId])
+  empleadoId       Int?
+  fecha            DateTime      @default(now())
+  fiscalizacion    Fiscalizacion @relation(fields: [fiscalizacionId], references: [id])
+  fiscalizacionId  Int           @unique
+}

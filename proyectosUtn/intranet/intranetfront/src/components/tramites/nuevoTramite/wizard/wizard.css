@@ -1,0 +1,7 @@
+.tipo-tramite-list-item input[type='radio'] {
+  cursor: pointer;
+}
+
+.tipo-tramite-list-item:hover {
+  background-color: var(--falcon-300);
+}
